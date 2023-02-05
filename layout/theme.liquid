@@ -29,7 +29,7 @@
   
       {% render 'meta-tags' %}
   
-      {% comment %} <script src="{{ 'global.js' | asset_url }}" defer="defer"></script> {% endcomment %}
+      <script src="{{ 'global.js' | asset_url }}" defer="defer"></script>
       {{ content_for_header }}
   
       {% comment %} {{ 'base.css' | asset_url | stylesheet_tag }} {% endcomment %}

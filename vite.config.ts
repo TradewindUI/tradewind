@@ -4,10 +4,10 @@ import { defineConfig } from 'vite'
 export default defineConfig(({ command, mode, ssrBuild }) => ({
   build: {
     outDir: 'assets',
-    assetsDir: '.',
     emptyOutDir: false,
+    minify: false,
     rollupOptions: {
-      input: ['src/*.{tsx,ts,jsx,js}'],
+      input: 'src/*.{tsx,ts,jsx,js}',
       output: {
         dir: 'assets',
         entryFileNames: '[name].js',
