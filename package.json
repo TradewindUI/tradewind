@@ -1,0 +1,24 @@
+{
+  "name": "tradewind",
+  "version": "0.0.1",
+  "description": "Tradewind is a theme built for Shopify Online Store 2.0 with Tailwind CSS and Web Components.",
+  "scripts": {
+    "dev": "vite build --watch",
+    "build": "tsc && vite build"
+  },
+  "keywords": [
+    "Shopify Theme",
+    "Online Store 2.0"
+  ],
+  "author": "Joseph Bona <joe@tradewindui.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "autoprefixer": "^10.4.13",
+    "fast-glob": "^3.2.12",
+    "postcss": "^8.4.21",
+    "tailwindcss": "^3.2.4",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.9.5",
+    "vite": "^4.1.1"
+  }
+}
